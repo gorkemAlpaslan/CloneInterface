@@ -1,0 +1,248 @@
+* {
+  text-transform: lowercase;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  border-top: 6px solid #81c14b;
+  border-bottom: 2px solid rgba(53, 51, 51, 0.555);
+  padding: 10px 10px;
+  padding-bottom: 0%;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.header-content {
+  width: 80%;
+  background-color: white;
+}
+
+.header-upper-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.upper-row-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  border: #81c14b solid 1px;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+}
+
+.search-both {
+  border: hidden !important;
+}
+
+.search-space {
+  width: 400px;
+  height: 36px;
+}
+
+.search-button {
+  color: white;
+  background-color: #81c14b;
+  width: 46px;
+  height: 36px;
+}
+
+.auth-box {
+  display: flex;
+}
+
+.sign:nth-child(2) {
+  padding-right: 40px;
+}
+
+.header-menu {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 24px 22px;
+  padding-bottom: 15px;
+}
+
+a:hover {
+  color: #81c14b;
+}
+
+.header-menu-borderer:hover {
+  border-bottom: 4px solid #81c14b;
+}
+
+.eksisozluk-logo {
+  margin-right: 10%;
+}
+
+.eksisozluk-logo img {
+  width: 245px;
+  height: 60px;
+}
+
+.header-lower-row {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.pena-logo {
+  max-width: 64px;
+  max-height: 30px;
+}
+
+.şeyler-logo {
+  max-width: 90px;
+  max-height: 30px;
+}
+
+.body {
+  display: flex;
+  position: fixed;
+  margin-left: 10%;
+  margin-top: 1%;
+  background-color: white;
+}
+
+.gundem-head {
+  margin-left: 12px;
+  display: flex;
+}
+
+.topics-list {
+  overflow: auto;
+  height: 100%;
+  width: 20%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  position: fixed;
+  width: 250px;
+  overflow-y: scroll;
+  color: #333;
+}
+
+.gundem {
+  color: rgba(51, 51, 51, 0.61);
+  margin-right: 10px;
+}
+
+.side-bar {
+  display: block;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.topics-list li {
+  list-style: none;
+  display: block;
+  color: #333;
+  padding-bottom: 30px;
+  font-size: 14px;
+  position: relative;
+}
+
+.topics-list li a::after {
+  content: "23";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.body-content {
+  margin: 18% 26%;
+  max-width: 1000px;
+  float: left;
+}
+
+.post-item {
+  margin: 6px 0px;
+}
+
+.baslik {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.post-buttons {
+  margin: 0px 4px;
+  background-color: white;
+  border: none;
+}
+
+.post-buttons:hover {
+  color: rgba(182, 150, 109, 0.377);
+}
+
+.bi {
+  text-align: center;
+}
+
+.entry-footer {
+  position: relative;
+}
+
+.like-buttons {
+  position: relative;
+  height: 100px;
+}
+
+.like-buttons button {
+  color: #81c14b;
+}
+
+.more-button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.share-button {
+  position: absolute;
+  right: 24px;
+  top: 0px;
+}
+
+.footer-info {
+  position: absolute;
+  right: 60px;
+  bottom: 9px;
+}
+
+.hesap-adi {
+  color: #00ffff;
+}
+
+.footer-info a {
+  display: block;
+  font-size: 14px;
+}
+
+.pp {
+  width: 40px;
+  height: 40px;
+}
+
+.pp-div {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
